@@ -15,7 +15,7 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- Nodejs
+- Node.js
 - Express
 - Ejs
 - Mobile-first workflow
