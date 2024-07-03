@@ -1,8 +1,10 @@
 {
 	"name": "fmentor-stats-preview-nodejs-express-ejs",
+	"private": true,
 	"version": "1.0.0",
-	"description": "stats preview card component using nodejs, express, and ejs",
-	"main": "app.js",
+	"type": "module",
+	"author": "alex <al3xback@gmail.com>",
+	"license": "ISC",
 	"scripts": {
 		"start": "nodemon app.js",
 		"start-server": "node app.js",
@@ -14,16 +16,6 @@
 		"lint": "run-s prettier",
 		"build": "run-s lint sass-prod postcss"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/al3xback/fmentor-stats-preview-nodejs-express-ejs.git"
-	},
-	"author": "alex <al3xback@gmail.com>",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/al3xback/fmentor-stats-preview-nodejs-express-ejs/issues"
-	},
-	"homepage": "https://github.com/al3xback/fmentor-stats-preview-nodejs-express-ejs#readme",
 	"dependencies": {
 		"body-parser": "^1.20.2",
 		"ejs": "^3.1.9",
